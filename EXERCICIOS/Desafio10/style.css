@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(97, 228, 97, 0.843);
+    text-align: justify;
+    
+}
+
+header {
+    background-color: rgba(26, 144, 26, 0.843);
+    color: white;
+    text-align: center;
+}
+
+article {
+    background-color: white;    
+}
+
+footer {
+    background-color: rgb(25, 82, 25);
+    color: white;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(25, 82, 25);
+}
+
+.extra {
+    background-color: rgba(97, 228, 97, 0.843);
+}
+
+/*.direita {
+    text-align: right;
+}*/
+
+.tituloextra{
+    color: white;
+    background-color: rgb(58, 148, 58);
+}
+
+
+@font-face {
+    font-family: 'nova';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+.android1 {
+    font-family: 'nova', Times, serif;
+    color: rgb(5, 104, 5);
+    /*font-size: 30px*/;
+}
+
+.android2 {
+    font-family: 'nova', Times, serif;
+    color: rgb(5, 104, 5);
+    background-color: rgba(139, 189, 139, 0.408);
+    /*font-size: 20px;*/ 
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
